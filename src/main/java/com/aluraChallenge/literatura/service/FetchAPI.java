@@ -31,7 +31,6 @@ public class FetchAPI {
             throw new IllegalArgumentException("Endpoint cannot be null or empty.");
         }
         String fullURL = baseURL + endpoint;
-        System.out.println(fullURL);
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(fullURL))
                 .build();
