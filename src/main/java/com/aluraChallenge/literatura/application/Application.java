@@ -44,27 +44,27 @@ public class Application {
 
       switch (option) {
         case 1:
-          //TODO: Buscar por titulo
+          //Buscar por titulo
           searchBookByTittle();
           break;
         case 2:
-          //TODO: Lista todos libros
+          //Lista todos libros
           printAllBooks();
           break;
         case 3:
-          //TODO: Lista de autores
+          //Lista de autores
           printAllAuthors();
           break;
         case 4:
-          //TODO: Listar autores vivos en anio
+          //istar autores vivos en anio
           printAuthorsAliveInYear();
           break;
         case 0:
-          //TODO: Salir
+          //Salir
           Screen.screenGoodBye();
           break;
         default:
-          //TODO: Opcion erronea mensaje
+          //Opcion erronea mensaje
           Screen.screenInvalidOption();
       }
       waitingForInteraction();

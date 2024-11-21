@@ -5,8 +5,6 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
-
 @Component
 public class JsonUtil {
     private final static ObjectMapper objectMapper = new ObjectMapper();

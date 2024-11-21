@@ -32,13 +32,6 @@ public class Screen {
         System.out.println("*****************************************************");
     }
 
-
-    public static void screenInvalidInput() {
-        System.out.println("****************************");
-        System.out.println(" Ingreso un valor no valido ");
-        System.out.println("****************************");
-    }
-
     public static void screenSeparation(){
         System.out.println("-------------------------------------------------------------");
     }
