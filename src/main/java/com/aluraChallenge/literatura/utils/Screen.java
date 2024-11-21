@@ -15,6 +15,7 @@ public class Screen {
         System.out.println("2 - Listar libros registrados.");
         System.out.println("3 - Listar autores registrados.");
         System.out.println("4 - Listar autores vivos en un determinado año.");
+        System.out.println("5 - Mostrar la cantidad de libros registrados en x idioma");
         System.out.println("0 - Salir.");
         screenSeparation();
         System.out.println("Por favor escriba la opción deseada: ");

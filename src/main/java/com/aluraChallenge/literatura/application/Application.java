@@ -59,6 +59,9 @@ public class Application {
           //istar autores vivos en anio
           printAuthorsAliveInYear();
           break;
+        case 5:
+          showBooksCountByLanguage();
+          break;
         case 0:
           //Salir
           Screen.screenGoodBye();
@@ -156,5 +159,14 @@ public class Application {
     scanner.nextLine();
   }
 
+  public void showBooksCountByLanguage() {
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.println("Ingrese el idioma para consultar los libros. Ejemplo: 'es', 'en', u otro:");
+
+    String language = scanner.nextLine().trim();
+
+    bookService.countBooksByLanguage(language);
+  }
 
 }

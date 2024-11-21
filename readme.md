@@ -37,7 +37,8 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
 4. **Inicia la aplicación**
 
 ## Consultas de ejemplo
-
+### Menu principal
+![Autores vivos en un año](assets/images/img0.png)
 ### 1. Búsqueda de libros por título
 Puedes ingresar un título como "Don Quijote" y la aplicación buscará en la base de datos y también consultará la API de **Gutendex** para obtener información adicional como autores, idioma, descargas, etc.
 
