@@ -1,23 +1,34 @@
 package com.aluraChallenge.literatura;
 
+import com.aluraChallenge.literatura.application.Application;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LiteraturaApplication {
+public class LiteraturaApplication implements CommandLineRunner {
 
-	//TODO: 3) Construyendo una solicitud de API
-	//TODO: 4) Analizando la respuesta en formato JSON
-	//TODO:	5) Convertiendo los datos
-	//TODO: 6) Interactuando con el usuario
-	//TODO: 7) Consultar libros
-	//TODO: 8) Consultar autores
-	//TODO: 9) Persistencia de datos
-	//TODO: 10) Listando libros por idiomas
-	//TODO: 11) Listando autores vivos en determinado año
+	private final Application application;
+
+	@Autowired
+	public LiteraturaApplication(Application application) {
+		this.application = application;
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(LiteraturaApplication.class, args);
 	}
 
+	@Override
+	public void run(String... args) throws Exception {
+		application.run();
+		//TODO: 6) Interactuando con el usuario
+		//TODO: 7) Consultar libros
+		//TODO: 8) Consultar autores
+		//TODO: 9) Persistencia de datos
+		//TODO: 10) Listando libros por idiomas
+		//TODO: 11) Listando autores vivos en determinado año
+
+	}
 }
