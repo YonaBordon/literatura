@@ -23,12 +23,5 @@ public class LiteraturaApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		application.run();
-		//TODO: 6) Interactuando con el usuario
-		//TODO: 7) Consultar libros
-		//TODO: 8) Consultar autores
-		//TODO: 9) Persistencia de datos
-		//TODO: 10) Listando libros por idiomas
-		//TODO: 11) Listando autores vivos en determinado año
-
 	}
 }
