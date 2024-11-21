@@ -37,8 +37,18 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
 4. **Inicia la aplicación**
 
 ## Consultas de ejemplo
-Búsqueda de libros por título: Puedes ingresar un título como "Don Quijote" y la aplicación buscará en la base de datos y también consultará la API de Gutendex para obtener información adicional como autores, idioma, descargas, etc.
 
-Autores vivos en un año determinado: Ingresa un año (por ejemplo, 1980) y la aplicación te devolverá una lista de autores que estaban vivos en ese año.
+### 1. Búsqueda de libros por título
+Puedes ingresar un título como "Don Quijote" y la aplicación buscará en la base de datos y también consultará la API de **Gutendex** para obtener información adicional como autores, idioma, descargas, etc.
 
-Estadísticas de libros por idioma: Ingresa un idioma (por ejemplo, "es" para español o "en" para inglés) y la aplicación te mostrará la cantidad de libros disponibles en ese idioma en la base de datos.
+![Búsqueda de libros por título](assets/images/img1.png)
+
+### 2. Autores vivos en un año determinado
+Ingresa un año (por ejemplo, 1980) y la aplicación te devolverá una lista de autores que estaban vivos en ese año.
+
+![Autores vivos en un año](assets/images/img2.png)
+
+### 3. Estadísticas de libros por idioma
+Esta funcionalidad permite mostrar la cantidad de libros cargados en la base de datos filtrados por idioma. Por defecto, la aplicación está configurada para mostrar estadísticas en español e inglés en la pantalla de inicio. Puedes seleccionar el idioma que deseas consultar y la aplicación te mostrará el número total de libros disponibles en ese idioma en el catálogo.
+
+![Estadísticas de libros por idioma](assets/images/img3.png)
